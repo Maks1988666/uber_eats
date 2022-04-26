@@ -1,0 +1,48 @@
+.hat {
+    background: #FFFFFF;
+}
+
+.hat__content {
+   display: grid;
+   grid-template-columns: 1fr 1fr 2fr 2fr 2fr 2fr 2fr;
+   grid-gap: 40px;
+}
+
+.hat__logo__uber {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hat__logo__eats {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hat__text__uber {
+    color: #000000;
+}
+
+.hat__text__eats {
+    color: #57AD56 ;
+}
+
+.hat__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hat__basket {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hat__button__enter {
+    padding: 12px 24px;
+    border: 2px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 13px;
+    /* color: #E0E0E0; */
+    background: #FFFFFF;
+    /* box-shadow: 0 4px 8px 0 rgba(39, 153, 214, 0.35); */
+    cursor: pointer;
+}
