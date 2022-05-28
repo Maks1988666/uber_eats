@@ -79,23 +79,52 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
+}
+
+.food_menu_header {
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1350px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .food_menu_choice {
     align-items: flex-start;
     justify-content: space-between;
-    width: 1219px;
-    margin: 1.5em auto;
-    padding: 20px;
+    width: 1350px;
+    margin: auto;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
 }
 
 .food_menu_figure {
-    width: 33.3333%;
+    width: 30%;
     margin: 0;
     text-align: center;
     margin-bottom: 60px;
+}
+
+.food_menu_pictur {
+    width: 100%;
+    height: auto;
+}
+
+.food_menu_name {
+    text-align: left;
+    font-weight: bold;
+}
+
+.food_menu_price {
+    text-align: left;
+    color:#626262;
+}
+
+.food_menu_time {
+    text-align: left;
+    font-weight: 500;
 }
