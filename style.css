@@ -109,6 +109,23 @@
     margin-bottom: 60px;
 }
 
+@media (max-width: 900px) {
+    .food_menu_figure {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .food_menu_figure {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .food_menu_figure {
+        width: none;
+    }
+}
 .food_menu_pictur {
     width: 100%;
     height: auto;
@@ -121,10 +138,14 @@
 
 .food_menu_price {
     text-align: left;
-    color:#626262;
+    color:#626262;  
 }
 
 .food_menu_time {
     text-align: left;
     font-weight: 500;
+}
+
+.footer_background {
+    background: #262626;
 }
