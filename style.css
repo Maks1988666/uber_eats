@@ -1,3 +1,7 @@
+.body {
+    margin: 0px;
+}
+
 .hat {
     background: #FFFFFF;
     border-bottom:  3px solid  #F2F2F2  ;
@@ -48,15 +52,6 @@
     cursor: pointer;
 }
 
-/* .emptiness {
-    display: grid;
-    grid-template-columns:  1fr 2fr 2fr 2fr 2fr 2fr 1fr;
-} */
-
-/* .search {
-    background:#F2F2F2 ;
-} */
-
 .search__string {
     display: grid;
     grid-template-columns:  1.5fr 7fr 2fr 2fr 2fr 2fr 1fr;
@@ -71,7 +66,6 @@
 
 .line {
     border-bottom: 0.5px solid #9c9c9c;
-    margin: 0 10% 0 10%;
 }
 
 
@@ -109,7 +103,7 @@
     margin-bottom: 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .food_menu_figure {
         width: 50%;
     }
@@ -121,7 +115,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
     .food_menu_figure {
         width: none;
     }
@@ -149,3 +143,27 @@
 .footer_background {
     background: #262626;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    }
+
+.content_name {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content_name_UBER {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.content_name_EATS {
+    color: #57AD56;
+    font-size: 50px;
+    }
+
+    
+
